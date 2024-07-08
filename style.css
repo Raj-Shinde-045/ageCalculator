@@ -76,5 +76,68 @@
     border: 1px;
     outline: 0px;
 }
+/* Media Queries */
 
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    .calculator {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .calculator h1 {
+        font-size: 40px;
+    }
+    .input-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .input-box input {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 10px 15px;
+    }
+    .input-box button {
+        padding: 12px 25px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+    .calculator {
+        margin-left: 7.5%;
+        margin-top: 7.5%;
+    }
+    .calculator h1 {
+        font-size: 50px;
+    }
+    .input-box {
+        padding: 30px;
+    }
+    .input-box input {
+        padding: 12px 18px;
+    }
+    .input-box button {
+        padding: 14px 28px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    .calculator {
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+    .calculator h1 {
+        font-size: 55px;
+    }
+    .input-box {
+        padding: 32px;
+    }
+    .input-box input {
+        padding: 13px 19px;
+    }
+    .input-box button {
+        padding: 15px 29px;
+    }
+}
 
