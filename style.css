@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/pexels-pixabay-531880.jpg);
+    background: linear-gradient(135deg, #4203a9, #30bafc);
     padding: 10px;
     background-position: center;
 }
