@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const dateInput = document.getElementById("date");
+    const today = new Date().toISOString().split("T")[0];
+    dateInput.setAttribute("max", today);
+});
+
 function calculateAge() {
     // Get the birthdate from the input field
     const birthdateInput = document.getElementById("date");

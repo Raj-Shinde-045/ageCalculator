@@ -140,4 +140,9 @@
         padding: 15px 29px;
     }
 }
-
+#devName {
+    margin-top: 25%;
+    color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
